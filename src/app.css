@@ -1,0 +1,45 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	h1 {
+		@apply text-3xl lg:text-4xl font-semibold;
+	}
+
+	h2 {
+		@apply text-2xl lg:text-3xl font-semibold;
+	}
+
+	h3 {
+		@apply text-xl lg:text-2xl font-medium;
+	}
+
+	h4 {
+		@apply text-lg lg:text-xl font-medium;
+	}
+
+	h5 {
+		@apply text-base lg:text-lg font-medium;
+	}
+
+	textarea,
+	input {
+		@apply rounded-xl border-none shadow-lg shadow-stone-400/50;
+	}
+	textarea {
+		@apply p-4;
+	}
+}
+
+@layer utilities {
+	button,
+	.button {
+		@apply bg-stone-500 hover:bg-stone-600 text-white font-medium py-2 px-4 rounded-lg shadow-lg ring-1 ring-stone-600 transition;
+	}
+
+	.wrapper {
+		@apply container mx-auto px-4 md:px-8;
+	}
+}
