@@ -200,7 +200,7 @@
 		/>
 		for my Graduation Project,
 		{#if averageOfClean < 5.5 || graduationProjectGrade < 5.5}
-			I will not graduate 😜
+			I will not graduate at all 😜
 		{:else}
 			I will graduate {averageOfClean > 8 ? 'Cum Laude 🎉' : 'normally'}
 		{/if}
