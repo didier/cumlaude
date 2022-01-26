@@ -3,8 +3,13 @@
 
 	$: grades = [
 		{
+			ec: 5,
+			name: 'Project: Web',
+			grade: 6.4
+		},
+		{
 			ec: 3,
-			name: 'Dfi: Design Patterns',
+			name: 'DFI: Design Patterns',
 			grade: 7
 		},
 		{
@@ -13,14 +18,14 @@
 			grade: 8.5
 		},
 		{
-			ec: 5,
-			name: 'Project: Web',
-			grade: 6.4
-		},
-		{
 			ec: 3,
 			name: 'Vormgeving 2',
 			grade: 8
+		},
+		{
+			ec: 5,
+			name: 'Project: Beyond',
+			grade: 6.4
 		},
 		{
 			ec: 3,
@@ -33,34 +38,34 @@
 			grade: 7.6
 		},
 		{
-			ec: 5,
-			name: 'Project: Beyond',
-			grade: 6.4
-		},
-		{
 			ec: 3,
 			name: 'Ubicomp',
 			grade: 7
 		},
 		{
 			ec: 1,
-			name: 'Studieregie 2.1.',
+			name: 'Studieregie 2.1',
 			grade: 7
 		},
 		{
 			ec: 1,
-			name: 'Studieregie 2.2.',
+			name: 'Studieregie 2.2',
 			grade: 7
 		},
 		{
 			ec: 1,
-			name: 'V1 Assessment',
+			name: 'Jaar 2 Eindassessment',
 			grade: 7.5
 		},
 		{
 			ec: 5,
 			name: 'Korte stage',
 			grade: 9
+		},
+		{
+			ec: 5,
+			name: 'Project: Tech',
+			grade: 6.9
 		},
 		{
 			ec: 3,
@@ -73,34 +78,24 @@
 			grade: 8.1
 		},
 		{
-			ec: 5,
-			name: 'Project: Tech',
-			grade: 6.9
-		},
-		{
 			ec: 3,
-			name: 'AudioDesign',
+			name: 'Audio Design',
 			grade: 8.5
 		},
 		{
 			ec: 3,
-			name: 'Data week tm',
+			name: 'Dataweek',
 			grade: 9
 		},
 		{
 			ec: 3,
-			name: 'Datavisualisatie 1 tm',
+			name: 'Datavisualisatie 1',
 			grade: 5.5
 		},
 		{
 			ec: 6,
-			name: 'Datavisualisatie 2 tm',
+			name: 'Datavisualisatie 2',
 			grade: 7
-		},
-		{
-			ec: 9,
-			name: 'Tech Track',
-			grade: 8
 		},
 		{
 			ec: 3,
@@ -119,27 +114,27 @@
 		},
 		{
 			ec: 9,
-			name: 'Pr. Information Design',
+			name: 'Project: Information Design',
 			grade: 8.5
 		},
 		{
 			ec: 3,
-			name: 'StartUp fase',
+			name: 'Minor: StartUp fase',
 			grade: 7
 		},
 		{
 			ec: 7,
-			name: 'Opdrachten (in portfolio)',
+			name: 'Minor: Ondernemende Prestaties',
 			grade: 7.1
 		},
 		{
 			ec: 18,
-			name: 'Eigen bedrijf markt zetten',
+			name: 'Minor: Eigen bedrijf i.d. markt zetten',
 			grade: 8.5
 		},
 		{
 			ec: 2,
-			name: 'Eindportfolio',
+			name: 'Minor: Eindportfolio',
 			grade: 9
 		},
 		{
