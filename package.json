@@ -11,9 +11,8 @@
 	},
 	"devDependencies": {
 		"@iconify-json/uil": "^1.0.2",
-		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "^1.0.0-next.43",
-		"@sveltejs/kit": "next",
+		"@sveltejs/kit": "^1.0.0-next.242",
 		"@tailwindcss/forms": "^0.4.0",
 		"autoprefixer": "^10.4.2",
 		"cookie": "^0.4.1",
