@@ -78,11 +78,6 @@
 			grade: 6.9
 		},
 		{
-			ec: 0,
-			name: 'Audio Visueel Design pd',
-			grade: ''
-		},
-		{
 			ec: 3,
 			name: 'AudioDesign',
 			grade: 8.5
@@ -104,8 +99,8 @@
 		},
 		{
 			ec: 9,
-			name: 'Tech Track 8',
-			grade: ''
+			name: 'Tech Track',
+			grade: 8
 		},
 		{
 			ec: 3,
