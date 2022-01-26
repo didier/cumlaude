@@ -1,5 +1,5 @@
 <script>
-	let graduationProjectGrade = 8
+	let graduationProjectGrade = 8.1
 
 	$: grades = [
 		{
@@ -165,6 +165,8 @@
 
 	$: clean = gradesTimesEc.flat().filter((entry) => typeof entry !== 'string')
 	$: averageOfClean = clean.reduce((acc, curr) => acc + curr, 0) / clean.length
+
+	$: grade = (Math.round(averageOfClean * 10) / 10).toFixed(1)
 </script>
 
 <header class="fixed inset-8 right-auto">
@@ -185,12 +187,25 @@
 <main>
 	<h1 class="max-w-lg text-center">
 		If I get an
+
 		<input
 			type="number"
 			class="rounded-full w-24 [font:inherit]"
 			bind:value={graduationProjectGrade}
 			step="0.1"
+			data-pattern="A input regex pattern that accepts anything from 1.0 to 10.0"
+			min={1}
+			max={10}
+			required
 		/>
-		for my Graduation Project, I will graduate {averageOfClean > 8 ? 'Cum Laude 🎉' : 'normally'}
+		for my Graduation Project,
+		{#if averageOfClean < 5.5 || graduationProjectGrade < 5.5}
+			I will not graduate 😜
+		{:else}
+			I will graduate {averageOfClean > 8 ? 'Cum Laude 🎉' : 'normally'}
+		{/if}
 	</h1>
+	<small class="w-full text-center mx-auto block text-stone-600 mt-4"
+		>(Grade average: {averageOfClean.toFixed(2)})</small
+	>
 </main>
